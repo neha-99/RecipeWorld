@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.3.0/bootstrap-social.min.css">
+<link rel="stylesheet" href="css/styles.css">
+    <title>Recipe World</title>
+
+</head>
+
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top ">
+<div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+     <span class="navbar-toggler-icon"></span>   
+    </button>
+    <a class="navbar-brand mr-auto" href="./index.html"><img src="img/logon.png" height="50" width="41"></a>
+    <a class="navbar-brand mr-auto" href="#"></a>
+    <div class="collapse navbar-collapse" id="Navbar">
+    <ul class="navbar-nav">
+  <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+         <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><span class="fa fa-cutlery fa-lg"> Recipes</a>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="./MealType.html">Meal Type</a>
+           <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="./appetizer&snacks.html">Appetizers & Snacks</a></li>
+              <li><a class="dropdown-item" href="./Breakfast&brunch.html">Breakfast & Brunch</a></li>
+              <li><a class="dropdown-item" href="">Dessert</a></li>
+              <li><a class="dropdown-item" href="">Dinner</a></li>
+              <li><a class="dropdown-item" href="">Drinks</a></li>
+          </ul>
+
+      </li>
+      <li><a class="dropdown-item" href="#">Ingredients</a>
+         <ul class="submenu dropdown-menu">
+          <li><a class="dropdown-item" href="">Pasta</a>
+          <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">Vegetarian</a></li>
+              <li><a class="dropdown-item" href="">Non-Vegetarian</a></li>
+          </ul>
+        </li>
+          <li><a class="dropdown-item" href="">Chicken</a></li>
+          <li><a class="dropdown-item" href="">Noodles</a>
+            <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">Vegetarian</a></li>
+              <li><a class="dropdown-item" href="">Non-Vegetarian</a></li>
+          </ul>
+          </li>
+          <li><a class="dropdown-item" href="">Beef</a></li>
+          <li><a class="dropdown-item" href="">Oats</a></li>
+       </ul>
+      </li>
+      <li><a class="dropdown-item" href="#">Diet & Health</a>
+      <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">Diabetic</a></li>
+              <li><a class="dropdown-item" href="">Gluten free</a></li>
+              <li><a class="dropdown-item" href="">Healthy</a></li>
+              <li><a class="dropdown-item" href="">Low Calorie</a></li>
+              <li><a class="dropdown-item" href="">Low</a></li>
+          </ul></li>
+          <li><a class="dropdown-item" href="#">Dish Type</a>
+      <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">Bread</a></li>
+              <li><a class="dropdown-item" href="">Cakes</a></li>
+              <li><a class="dropdown-item" href="">Salads</a></li>
+              <li><a class="dropdown-item" href="">Smoothies</a></li>
+              <li><a class="dropdown-item" href="">Soups</a></li>
+          </ul></li>
+          <li><a class="dropdown-item" href="#">Cooking Style</a>
+      <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">BBQ & Grilling</a></li>
+              <li><a class="dropdown-item" href="">Quick & Easy</a></li>
+              <li><a class="dropdown-item" href="">Vegan</a></li>
+              <li><a class="dropdown-item" href="">Vegetarian</a></li>
+              <li><a class="dropdown-item" href="">Slow Cooker</a></li>
+          </ul></li>
+          <li><a class="dropdown-item" href="#">World Cusine</a>
+      <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">Indian</a></li>
+              <li><a class="dropdown-item" href="">Italian</a></li>
+              <li><a class="dropdown-item" href="">Mexican</a></li>
+              <li><a class="dropdown-item" href="">Southern</a></li>
+              <li><a class="dropdown-item" href="">Chinese</a></li>
+          </ul></li>
+          <li><a class="dropdown-item" href="#">Special</a>
+      <ul class="submenu dropdown-menu">
+              <li><a class="dropdown-item" href="">Summer</a></li>
+              <li><a class="dropdown-item" href="">Back to School</a></li>
+              <li><a class="dropdown-item" href="">Festival</a></li>
+              <li><a class="dropdown-item" href="">House Party</a></li>
+              <li><a class="dropdown-item" href="">Street Food</a></li>
+          </ul></li>
+      
+      </ul>
+  
+ <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Your Recipe</a></li>
+        
+</ul>
+
+    <span class="navbar-text ml-auto">
+        <a id="reserve-modal">
+           <span class="fa fa-search ml-3"></span>Search
+        </a>
+    </span>
+    <span class="navbar-text">
+        <a id="modal-login">
+           <span class="fa fa-sign-in ml-3"></span>Login 
+        </a>
+    </span>
+    
+</div>
+</div>
+</nav>
+
+<div id="loginModal" class="modal fade" role="dialog">
+   <div class="modal-dialog modal-lg" role="content">
+       <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-tittle">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+                &times;
+            </button>
+        </div>
+           <div class="modal-body">
+               <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row col-12">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form> 
+           </div>
+       </div>
+   </div>   
+</div>
+
+<div id="reserveModal" class="modal fade" role="dialog">
+   <div class="modal-dialog modal-lg" role="content">
+       <div class="modal-content ">
+        <div class="modal-header ">
+            <h4 class="modal-tittle">Find Your Recipe</h4>
+            <button type="button" class="close" data-dismiss="modal">
+                &times;
+            </button>
+        </div>
+           <div class="modal-body">
+              <form class="form-inline my-2 my-lg-0 align-items-center">
+                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+              </form> 
+                           
+           </div>
+       </div>
+   </div>   
+</div>
+    <header class="jumbotron jumbotron-image shadow" style="background-image: url(https://i1.wp.com/www.westside.social/wp-content/uploads/2017/12/food-background-food-concept-with-various-tasty-fresh-ingredients-for-cooking-italian-food-ingredients-view-from-above-with-copy-space_1220-1491-2-e1513108150131.jpg?ssl=1)">
+        <div class="container">
+            <div  >
+                <div class=" col-12 col-sm-4 offset-4 text-center">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                    <h1>Recipe World</h1>
+                    <p>A recipe is a story that ends with a good meal and cooking is a journey filled with love and happiness</p>
+                </div>
+                
+               
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row ">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+
+
+                
+            </ol>
+            <div class="col-12">
+               <h3>About Us</h3>
+               <hr>
+            </div>
+        </div>
+
+       <div class="row row-content">
+           <div class="col-12">
+              <h3>Location Information</h3>
+           </div>
+            <div class="col-12 col-sm-4 offset-sm-1">
+                   <h5>Our Address</h5>
+                    <address style="font-size: 100%">
+                  121, Clear Water Bay Road<br>
+                  Clear Water Bay, Kowloon<br>
+                  HONG KONG<br>
+                  <i class="fa fa-phone"></i>: +852 1234 5678<br>
+                  <i class="fa fa-fax"></i>: +852 8765 4321<br>
+                  <i class="fa fa-envelope"></i>:
+                        <a href="mailto:confusion@food.net">confusion@food.net</a>
+               </address>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-1">
+                <h5>Map of our Location</h5>
+            </div>
+            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" href="tel:+1234566778"><i class="fa fa-phone"></i>Call</a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i>Skype</a>
+                    <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-0"></i>Email</a>
+            </div>
+        </div>
+
+            
+
+     
+
+                      
+            </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyles">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                       
+                        <li><a href="contactus.html">Your Recipe</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                  121, Clear Water Bay Road<br>
+                  Clear Water Bay, Kowloon<br>
+                  HONG KONG<br>
+                  <i class="fa fa-phone fa-lg"></i> +852 1234 5678><br>
+                 <i class="fa fa-fax fa-lg"></i> +852 8765 4321><br>
+                 <i class="fa fa-envelope fa-lg"></i><a href="mailto:confusion@food.net">recipeworld@food.net</a>
+               </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2018 Recipe World</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/esm/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+     <script src="scripts.js"></script>
+</body>
+
+</html>
